@@ -68,4 +68,12 @@ figcaption {
   .scroll__down {
     display: none;
   }
+
+  h1 {
+    line-height: 4rem;
+  }
+
+  blockquote {
+    margin-top: 4rem;
+  }
 }

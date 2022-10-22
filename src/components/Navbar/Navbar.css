@@ -29,3 +29,17 @@ nav > a.active {
   color: var(--color-white);
   transform: scale(1.5);
 }
+
+/* ===== MEDIA QUERIES ===== */
+
+/* MEDIUM */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* SMALL */
+@media screen and (max-width: 600px) {
+  nav {
+    gap: 0.5rem;
+  }
+}
