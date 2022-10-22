@@ -137,6 +137,17 @@ img {
   }
 }
 
+/* MEDIUM AND LANDSCAPE*/
+@media screen and (max-width: 1024px) and (orientation: landscape){
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 24rem;
+  }
+}
+
 /* SMALL */
 @media screen and (max-width: 600px) {
   .container {

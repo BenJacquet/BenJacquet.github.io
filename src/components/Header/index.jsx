@@ -13,7 +13,7 @@ const Header = () => {
         <CallToAction />
         <blockquote>
           <p><i>"Everybody has a creative potential and from the moment you can express this creative potential, you can start changing the world."</i></p>
-          <figcaption><b>-Paulo Coelho - </b>The Alchemist</figcaption>
+          <figcaption><b>Paulo Coelho</b> <br /> The Alchemist</figcaption>
         </blockquote>
         <a href="#contact" className='scroll__down'>Scroll Down</a>
         <SocialsBar />
