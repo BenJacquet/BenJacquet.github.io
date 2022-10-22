@@ -19,6 +19,19 @@ header {
   overflow: hidden;
 }
 
+blockquote {
+  margin-top: 9rem;
+  max-width: 60%;
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+figcaption {
+  margin-top: 2rem;
+}
+
 .portrait > img {
   border-radius: 50%;
   border: 0.2rem solid var(--color-primary);
@@ -27,7 +40,7 @@ header {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 5rem;
+  top: 26rem;
   transform: rotate(90deg);
   font-weight: 200;
   font-size: 0.9rem;
@@ -35,4 +48,24 @@ header {
 
 .scroll__down:hover {
   transform: rotate(90deg) translateX(1rem);
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+/* MEDIUM */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+
+/* SMALL */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .scroll__down {
+    display: none;
+  }
 }

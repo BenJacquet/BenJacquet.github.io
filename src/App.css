@@ -54,12 +54,13 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
 h1 {
   font-family: var(--font-header);
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .container {
@@ -92,7 +93,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-primary-variant);
+  color: var(--color-white);
 }
 
 .btn {
@@ -132,7 +133,7 @@ img {
   }
 
   section {
-    margin-top: 6rem;;
+    margin-top: 6rem;
   }
 }
 
@@ -143,6 +144,6 @@ img {
   }
 
   section > h2{
-    margin-bottom: 2rem;;
+    margin-bottom: 2rem;
   }
 }
