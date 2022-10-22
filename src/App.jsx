@@ -1,24 +1,25 @@
 import './App.css'
 import React from 'react'
-import About from './components/About'
-import Contact from './components/Contact'
-import Education from './components/Education'
-import Footer from './components/Footer'
 import Header from './components/Header'
-import Projects from './components/Projects'
+// import Navbar from './components/Navbar'
+// import About from './components/About'
+// import Skills from './components/Skills'
+// import Education from './components/Education'
+// import Projects from './components/Projects'
+// import Contact from './components/Contact'
+// import Footer from './components/Footer'
 
 const App = () => {
   return (
     <div>
-      <h1>
-        WIP PORTFOLIO APP
-      </h1>
       <Header />
-      <About />
-      <Education />
-      <Projects />
-      <Contact />
-      <Footer />
+      {/* <Navbar/> */}
+      {/* <About /> */}
+      {/* <Skills /> */}
+      {/* <Education /> */}
+      {/* <Projects /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   )
 }
