@@ -3,8 +3,8 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div>
-      <hr className='text-light'/>
+    <div className='footer__container'>
+      
     </div>
   )
 }
