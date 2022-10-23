@@ -15,7 +15,7 @@
 }
 
 .about__me__portrait {
-  margin-top: 14rem;
+  margin-top: 24rem;
   border-radius: 2rem;
   max-width: 100%;
   overflow: hidden;
@@ -56,6 +56,9 @@
   font-size: 1.1rem;
 }
 
+.introduction > p {
+  width: 100%;
+}
 
 /* ===== MEDIA QUERIES ===== */
 
@@ -108,7 +111,7 @@
     font-size: 1rem;
   }
 
-  p {
+  .introduction > p {
     width: 90%;
     margin-left: 50%;
     transform: translateX(-50%);

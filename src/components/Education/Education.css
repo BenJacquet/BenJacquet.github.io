@@ -1,5 +1,32 @@
+.education__container {
+  display: grid;
+  height: 100vh;
+  text-align: center;
+}
+
 .badge {
-  display: flex;
-  justify-content: flex;
-  margin: auto;
+  transform: scale(0.5);
+  margin-top: -7%;
+}
+
+p {
+  width: 75%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* SMALL */
+@media screen and (max-width: 600px) {
+  section#education{
+    margin-top: 60rem;
+  }
+
+  .category:hover {
+    transform: scale(1);
+  }
+
+  .badge {
+    margin-top: 1rem;
+    transform: scale(1);
+  }
 }
