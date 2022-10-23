@@ -54,7 +54,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
@@ -63,13 +63,28 @@ h1 {
   font-size: 3rem;
 }
 
+h2 {
+  font-family: var(--font-header);
+  font-size: 2rem;
+  transition: var(--transition-a);
+}
+
+h2:hover {
+  transform: rotate(-5deg) scale(1.2) ;
+}
+
+h6 {
+  font-family: var(--font-header);
+  font-size: 0.8rem;
+}
+
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 9rem;
 }
 
 section > h2,
@@ -144,7 +159,7 @@ img {
   }
 
   section {
-    margin-top: 24rem;
+    margin-top: 28rem;
   }
 }
 

@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 8rem;
   background-image: url('../../assets/imgs/background_valley.svg');
   background-repeat: no-repeat;
 }
@@ -41,14 +41,14 @@ figcaption {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  top: 26rem;
+  top: 27rem;
   transform: rotate(90deg);
   font-weight: 200;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .scroll__down:hover {
-  transform: rotate(90deg) translateX(1rem);
+  transform: rotate(90deg) translateX(1.2rem);
 }
 
 /* ===== MEDIA QUERIES ===== */
@@ -63,7 +63,7 @@ figcaption {
 /* SMALL */
 @media screen and (max-width: 600px) {
   header {
-    height: 80vh;
+    height: 100vh;
   }
 
   .scroll__down {
