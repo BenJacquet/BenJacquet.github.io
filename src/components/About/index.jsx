@@ -32,7 +32,13 @@ const About = () => {
           </article>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae interdum turpis. Phasellus convallis mi est, nec faucibus arcu euismod in. Fusce a nisl purus. Fusce eu tempor purus. Phasellus non est arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc sit amet enim eu sem feugiat tincidunt. Pellentesque tortor est, lobortis in urna ut, pharetra dictum felis. Aliquam lacus neque, viverra id rhoncus.
+          I'm a former luxury concierge that fell in love with software development after succeeding <strong>42Paris</strong> month long entrance tests with no past experience !
+          <br />
+          <br />
+          My goal is to become a versatile developper, able to give shape to about any idea that comes to my mind whether it is a solution for an real world problem or just a funny project 😋
+          <br />
+          <br />
+          I've worked on many projects using multiple technologies and languages but I must say I have a soft spot for  <strong>Frontend Developement</strong> !
         </p>
         </div>
       </div>
