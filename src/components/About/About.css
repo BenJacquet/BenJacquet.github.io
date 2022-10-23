@@ -15,7 +15,7 @@
 }
 
 .about__me__portrait {
-  margin-top: 24rem;
+  margin-top: 14rem;
   border-radius: 2rem;
   max-width: 100%;
   overflow: hidden;
@@ -99,8 +99,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
     padding-bottom: 2rem;
-    margin-left: 33%;
-    transform: translateX(-40%);
+
   }
 
   .about__card > h6 {

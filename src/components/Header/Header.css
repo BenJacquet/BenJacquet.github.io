@@ -63,7 +63,7 @@ figcaption {
 /* SMALL */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 130vh;
   }
 
   .scroll__down {
@@ -76,6 +76,11 @@ figcaption {
 
   blockquote {
     margin-top: 4rem;
+    width: 100%;
+  }
+
+  blockquote >p{
+    width: 100%;
   }
 
   figcaption {

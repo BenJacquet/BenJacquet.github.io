@@ -1,5 +1,4 @@
 .education__container {
-  display: grid;
   height: 100vh;
   text-align: center;
 }
@@ -27,6 +26,6 @@ p {
 
   .badge {
     margin-top: 1rem;
-    transform: scale(1);
+    transform: scale(0.9);
   }
 }

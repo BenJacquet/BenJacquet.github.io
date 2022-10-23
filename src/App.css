@@ -67,10 +67,12 @@ h2 {
   font-family: var(--font-header);
   font-size: 2rem;
   transition: var(--transition-a);
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 h2:hover {
-  transform: rotate(-5deg) scale(1.2) ;
+  transform: translateX(-50%) rotate(-5deg) scale(1.2) ;
 }
 
 h6 {
