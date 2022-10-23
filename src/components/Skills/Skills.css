@@ -1,3 +1,7 @@
+.container {
+  height: 100vh;
+}
+
 .skills__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -16,6 +20,7 @@
 .category:hover {
   transform: scale(1.1);
   border: 2px solid var(--color-primary);
+  transition: var(--transition-a);
 }
 
 .category:hover > h3{
@@ -34,18 +39,16 @@ article {
 
 /* ===== MEDIA QUERIES ===== */
 
-/* SMALL */
+/* MEDIUM AND LANDSCAPE */
 @media screen and (max-width: 1024px) and (orientation: landscape){
   .skills__container {
     grid-template-columns: repeat(3, 1fr);
     transform: scale(0.8);
-    gap: 3rem;
     padding-top: 2rem;
   }
 
   .category:hover {
     transform: scale(1);
-    border: 2px solid var(--color-primary);
   }
 }
 
@@ -54,12 +57,10 @@ article {
   .skills__container {
     grid-template-columns: repeat(1, 1fr);
     transform: scale(0.9);
-    gap: 3rem;
     padding-top: 2rem;
   }
 
   .category:hover {
     transform: scale(1);
-    border: 2px solid var(--color-primary);
   }
 }

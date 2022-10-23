@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.78479309.css",
-    "main.js": "/portfolio/static/js/main.5359fdcc.js",
+    "main.css": "/portfolio/static/css/main.b35864f7.css",
+    "main.js": "/portfolio/static/js/main.6a43f8b7.js",
     "static/media/portrait_casual.jpg": "/portfolio/static/media/portrait_casual.f9ff9fcd7fd50a4d1b22.jpg",
-    "static/media/Benjamin Jacquet - CV.pdf": "/portfolio/static/media/Benjamin Jacquet - CV.7e8f8a6017a856e7ee4e.pdf",
+    "static/media/Benjamin Jacquet - CV - FR.pdf": "/portfolio/static/media/Benjamin Jacquet - CV - FR.69efbafccca705cc0eb4.pdf",
+    "static/media/Benjamin Jacquet - CV - EN.pdf": "/portfolio/static/media/Benjamin Jacquet - CV - EN.81d2bc83347179d5ae79.pdf",
     "static/media/background_valley.svg": "/portfolio/static/media/background_valley.0706ff4be3e147170ebe.svg",
     "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.78479309.css",
-    "static/js/main.5359fdcc.js"
+    "static/css/main.b35864f7.css",
+    "static/js/main.6a43f8b7.js"
   ]
 }
