@@ -39,3 +39,55 @@
     display: none;
   }
 }
+
+/* ===== BIG VARIANT ===== */
+
+.big__socials__bar > .socials__bar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: var(--transition-a);
+  gap: 3rem;
+  left: auto;
+  top: auto;
+}
+
+.big__socials__bar > .socials__bar > a {
+  font-size: 2rem;
+}
+
+.big__socials__bar > .socials__bar > a:hover {
+  transform: scale(1.6);
+}
+
+.big__socials__bar > .socials__bar::before,
+.big__socials__bar > .socials__bar::after {
+  height: 3rem;
+  margin: 1rem;
+  transform: rotate(90deg);
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+/* MEDIUM */
+@media screen and (max-width: 1024px) {
+  .big__socials__bar > .socials__bar {
+    left: 0rem;
+  }
+}
+
+/* SMALL */
+@media screen and (max-width: 600px) {
+  .big__socials__bar > .socials__bar {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .big__socials__bar > .socials__bar::before,
+  .big__socials__bar > .socials__bar::after {
+  height: 2rem;
+  margin: 1rem;
+  transform: rotate(90deg);
+}
+}

@@ -6,8 +6,8 @@ import ResumeFR from '../../assets/pdfs/Benjamin Jacquet - CV - FR.pdf'
 const CallToAction = () => {
   return (
     <div className='cta'>
-      <a href={ResumeFR} className='btn'>CV - FR</a>
-      <a href={ResumeEN} className='btn'>CV - EN</a>
+      <a href={ResumeFR} rel='noreferrer' target='_blank' className='btn'>CV - FR</a>
+      <a href={ResumeEN} rel='noreferrer' target='_blank' className='btn'>CV - EN</a>
       <a href="#contact" className='btn btn-primary' >Want to Talk ?</a>
     </div>
   )

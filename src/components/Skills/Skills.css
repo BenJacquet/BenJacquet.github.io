@@ -16,11 +16,11 @@
 .category:hover {
   transform: scale(1.1);
   border: 2px solid var(--color-primary);
-  transition: var(--transition-a);
 }
 
 .category:hover > h3{
   color: var(--color-light);
+  transition: var(--transition-a);
 }
 
 .category > h3 {

@@ -9,7 +9,7 @@ const Education = () => {
       <div className="education__container">
           <h3>I started studying <strong>Computer Science</strong> at <a href="https://42.fr/en/homepage/">42Paris</a> in October 2019</h3>
           <br />
-          <p>If you are not familiar with the concept, the learning process is based on projects as a vector of progress instead of sitting in a class hearing about stuff that you will most likely forget.</p>
+          <p>If you are not familiar with the concept, the learning process is based on projects and peer-learning as a vector of progress instead of sitting in a class hearing about stuff that you will most likely forget.</p>
           <p>If you are able to stay focused and work on tasks on your own and without directions, it allows for significantly better knowledge retention and faster progress !</p>
           <br />
           <p>I'm still completing various projects outside the common core or the cursus to this day.</p>

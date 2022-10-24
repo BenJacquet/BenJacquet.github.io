@@ -14,12 +14,17 @@ p {
   transform: translateX(-50%);
 }
 
+/* ===== MEDIA QUERIES ===== */
+
+/* MEDIUM */
+@media screen and (max-width: 1024px) {
+  .badge {
+    transform: scale(0.9);
+  }
+}
+
 /* SMALL */
 @media screen and (max-width: 600px) {
-  .category:hover {
-    transform: scale(1);
-  }
-
   .badge {
     margin-top: 1rem;
     transform: scale(0.9);

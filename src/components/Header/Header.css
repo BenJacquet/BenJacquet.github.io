@@ -9,15 +9,6 @@ header {
   position: relative;
 }
 
-.portrait {
-  width: 22rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 4rem;
-  overflow: hidden;
-}
-
 blockquote {
   margin-top: 9rem;
   max-width: 100%;
@@ -28,13 +19,7 @@ blockquote {
 }
 
 figcaption {
-
   margin-top: 2rem;
-}
-
-.portrait > img {
-  border-radius: 50%;
-  border: 0.2rem solid var(--color-primary);
 }
 
 .scroll__down {
