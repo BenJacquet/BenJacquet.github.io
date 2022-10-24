@@ -1,6 +1,7 @@
 .education__container {
   text-align: center;
   margin-top: 2rem;
+  margin-bottom: -6rem;
 }
 
 .badge {
@@ -18,6 +19,11 @@ p {
 
 /* MEDIUM */
 @media screen and (max-width: 1024px) {
+  .education__container {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .badge {
     transform: scale(0.9);
   }
