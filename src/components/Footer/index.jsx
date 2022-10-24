@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import Portrait from '../../assets/imgs/portrait.jpg'
 import SocialsBar from '../SocialsBar'
+import ReactIcon from '../../assets/imgs/react.svg'
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
         <div className='big__socials__bar'>
           <SocialsBar/>
         </div>
-        <p className='development'>This website was designed & developped by me with React.js</p>
+        <h6 className='development'>This website was designed & developped by me with <a className='react' href="https://reactjs.org/" rel="noreferrer" target="_blank">React</a><img src={ReactIcon} alt="react_icon"/></h6>
         <p className='rights'>© 2022 Benjamin Jacquet - All rights reserved.</p>
       </div>
     </footer>

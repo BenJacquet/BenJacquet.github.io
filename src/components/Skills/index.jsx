@@ -24,7 +24,7 @@ const Skills = () => {
                 <small className='text-light'>Intermediate</small>
               </article>
               <article className="skill__details">
-                <h4>Vue.Js & Nuxt.Js</h4>
+                <h4>Vue & Nuxt</h4>
                 <small className='text-light'>Experienced</small>
               </article>
               <article className="skill__details">
@@ -32,7 +32,7 @@ const Skills = () => {
                 <small className='text-light'>Experienced</small>
               </article>
               <article className="skill__details">
-                <h4>React.Js</h4>
+                <h4>React</h4>
                 <small className='text-light'>Intermediate</small>
               </article>
             </div>

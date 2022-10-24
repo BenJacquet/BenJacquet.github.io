@@ -68,12 +68,42 @@ footer {
   transform: rotate(-90deg) translateX(1.2rem);
 }
 
+.react {
+  color: rgb(95, 217, 251);
+  transition: var(--transition-a);
+}
+
+.react:hover {
+  color: rgb(95, 217, 251) !important;
+}
+
+.react + img{
+  position: absolute;
+  display: inline;
+  width: 0rem;
+  transition: var(--transition-a);
+  margin-top: 0.5rem;
+  margin-left: -1.5rem;
+  z-index: -1;
+}
+
+.react:hover + img{
+  position: absolute;
+  display: inline;
+  width: 2.2rem;
+  transform: translateX(2rem);
+}
+
 /* ===== MEDIA QUERIES ===== */
 
 /* MEDIUM */
 @media screen and (max-width: 1024px) {
   .scroll__up {
     margin-right: 1rem;
+  }
+  .development {
+    margin-bottom: 6rem;
+    font-size: 1rem;
   }
 }
 
