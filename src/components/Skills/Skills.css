@@ -1,12 +1,8 @@
-.container {
-  height: 100vh;
-}
-
 .skills__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
-  padding-top: 8rem;
+  padding-top: 2rem;
 }
 
 .category {
@@ -39,16 +35,19 @@ article {
 
 /* ===== MEDIA QUERIES ===== */
 
-/* MEDIUM AND LANDSCAPE */
-@media screen and (max-width: 1024px) and (orientation: landscape){
+/* MEDIUM */
+@media screen and (max-width: 1024px){
   .skills__container {
     grid-template-columns: repeat(3, 1fr);
     transform: scale(0.8);
-    padding-top: 2rem;
+    justify-content: center;
   }
 
   .category:hover {
     transform: scale(1);
+  }
+  .category:hover {
+    transform: scale(1.1);
   }
 }
 
@@ -57,7 +56,6 @@ article {
   .skills__container {
     grid-template-columns: repeat(1, 1fr);
     transform: scale(0.9);
-    padding-top: 2rem;
   }
 
   .category:hover {

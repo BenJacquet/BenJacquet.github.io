@@ -2,8 +2,6 @@
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 10%;
-  height: 100vh;
-  padding-top: 8rem;
 }
 
 .about__me {
@@ -30,7 +28,7 @@
 .about__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.2rem;
+  gap: 1rem;
   padding-bottom: 2rem;
   margin-top: 3rem;
 }
@@ -67,8 +65,17 @@
   .about__me__portrait {
     max-width: 100%;
     margin-top: 23.5rem;
+    margin-left: 2rem;
     transform: scale(1) translateX(1rem);
-    transition: var(--transition-a);
+  }
+
+  .about__me__portrait:hover {
+    transform: scale(1) translateX(1rem);
+  }
+
+  .about__cards {
+    gap: 0.8rem;
+    justify-content: center;
   }
 }
 
@@ -76,30 +83,24 @@
 @media screen and (max-width: 600px) {
   .about__container {
     display: inline-block;
-    margin-top: -6rem;
-    padding-top: 2rem;
   }
 
   .about__me__portrait {
     max-width: 75%;
-    margin-top: 10rem;
-    transform: scale(1) translateX(1rem);
-    transition: var(--transition-a);
+    margin-top: 4rem;
+    transform: scale(1);
   }
 
   .about__me__portrait:hover {
     max-width: 75%;
-    transform: scale(1) translateX(1rem);
-    transition: var(--transition-a);
+    transform: scale(1);
   }
 
   .about__cards {
-    margin-top: 8rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.2rem;
-    padding-bottom: 2rem;
-
+    margin-top: 4rem;
+    gap: 0.8rem;
+    justify-content: center;
+    transform: translateX(1.2rem);
   }
 
   .about__card > h6 {

@@ -27,7 +27,7 @@
   --font-content: 'Karla';
 
   --container-width-lg: 75%;
-  --container-width-md: 86%;
+  --container-width-md: 100%;
   --container-width-sm: 90%;
 
   --transition-a: all 400ms ease;
@@ -86,7 +86,7 @@ h6 {
 }
 
 section {
-  margin-top: 9rem;
+  margin-top: 16rem;
 }
 
 section > h2,
@@ -97,7 +97,6 @@ section > h5 {
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom: 3rem;
 }
 
 .text-light {
@@ -148,20 +147,8 @@ img {
   .container {
     width: var(--container-width-md);
   }
-
   section {
     margin-top: 6rem;
-  }
-}
-
-/* MEDIUM AND LANDSCAPE*/
-@media screen and (max-width: 1024px) and (orientation: landscape){
-  .container {
-    width: var(--container-width-md);
-  }
-
-  section {
-    margin-top: 28rem;
   }
 }
 
@@ -170,8 +157,7 @@ img {
   .container {
     width: var(--container-width-sm);
   }
-
-  section > h2{
-    margin-bottom: 2rem;
+  section {
+    margin-top: 8rem;
   }
 }

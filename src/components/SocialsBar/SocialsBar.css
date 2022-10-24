@@ -26,6 +26,13 @@
 
 /* ===== MEDIA QUERIES ===== */
 
+/* MEDIUM */
+@media screen and (max-width: 1024px) {
+  .socials__bar {
+    left: 2rem;
+  }
+}
+
 /* SMALL */
 @media screen and (max-width: 600px) {
   .socials__bar {

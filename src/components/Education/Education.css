@@ -1,6 +1,6 @@
 .education__container {
-  height: 100vh;
   text-align: center;
+  margin-top: 2rem;
 }
 
 .badge {
@@ -16,10 +16,6 @@ p {
 
 /* SMALL */
 @media screen and (max-width: 600px) {
-  section#education{
-    margin-top: 60rem;
-  }
-
   .category:hover {
     transform: scale(1);
   }
