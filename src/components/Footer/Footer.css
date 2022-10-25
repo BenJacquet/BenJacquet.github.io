@@ -29,7 +29,7 @@ footer {
 
 .footer__container > .portrait:hover + p {
   margin-left: 50%;
-  transform: translateX(-50%) translateY(-20%) scale(1.5);
+  transform: translateX(-50%) translateY(-20%) scale(1.4);
 }
 
 .footer__container > .portrait + p > span {
