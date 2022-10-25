@@ -41,13 +41,7 @@ article {
     grid-template-columns: repeat(3, 1fr);
     transform: scale(0.8);
     justify-content: center;
-  }
-
-  .category:hover {
-    transform: scale(1);
-  }
-  .category:hover {
-    transform: scale(1.1);
+    padding-top: 0rem;
   }
 }
 
@@ -56,9 +50,5 @@ article {
   .skills__container {
     grid-template-columns: repeat(1, 1fr);
     transform: scale(0.9);
-  }
-
-  .category:hover {
-    transform: scale(1);
   }
 }

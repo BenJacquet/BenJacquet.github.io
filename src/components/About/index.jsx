@@ -36,7 +36,7 @@ const About = () => {
             I'm a former luxury concierge that fell in love with software development after succeeding <strong>42Paris</strong> month long entrance tests with no past experience !
             <br />
             <br />
-            My goal is to become a versatile developper, able to give shape to about any idea that comes to my mind whether it is a solution for an real world problem or just a funny project 😋
+            My goal is to become a versatile developper, able to give shape to about any idea that comes to mind whether it is a solution for a real world problem or just a funny project 😋
             <br />
             <br />
             I've worked on many projects using multiple technologies and languages but I must say I have a soft spot for  <strong>Frontend Developement</strong> !
