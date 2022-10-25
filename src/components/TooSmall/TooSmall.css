@@ -1,0 +1,40 @@
+.warning {
+  display: none;
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+/* XSMALL */
+@media screen and (max-width: 360px){
+  .warning {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    color: var(--color-light);
+    background-color: black;
+    animation: 6s ease-in-out 2s infinite rotate;
+  }
+
+  .warning ~ * {
+    display: none;
+    height: 0;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    50% {
+      transform: rotate(90deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+}

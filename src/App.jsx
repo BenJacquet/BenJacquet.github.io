@@ -9,10 +9,12 @@ import Education from './components/Education'
 import Contact from './components/Contact'
 import Separator from './components/Separator'
 import Footer from './components/Footer'
+import TooSmall from './components/TooSmall'
 
 const App = () => {
   return (
     <div>
+      <TooSmall />
       <Header />
       <Navbar/>
       <About />
