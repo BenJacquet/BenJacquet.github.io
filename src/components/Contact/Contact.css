@@ -1,0 +1,22 @@
+.contact__container {
+  margin-top: 3rem;
+}
+
+.contact__options {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+/* MEDIUM */
+@media screen and (max-width: 1024px){
+  .contact__options {
+    display: row;
+    grid-template-columns: none;
+    gap: 1rem;
+  }
+}
