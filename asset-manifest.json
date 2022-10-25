@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7629ed9b.css",
-    "main.js": "/portfolio/static/js/main.4621c7d2.js",
-    "static/media/portrait_casual.jpg": "/portfolio/static/media/portrait_casual.f9ff9fcd7fd50a4d1b22.jpg",
-    "static/media/portrait.jpg": "/portfolio/static/media/portrait.eed58befb79efee64233.jpg",
-    "static/media/Benjamin Jacquet - CV - FR.pdf": "/portfolio/static/media/Benjamin Jacquet - CV - FR.29d531c9e7d4aa899f33.pdf",
-    "static/media/Benjamin Jacquet - CV - EN.pdf": "/portfolio/static/media/Benjamin Jacquet - CV - EN.3e2a94d3f31d5c021af9.pdf",
-    "static/media/background_valley.svg": "/portfolio/static/media/background_valley.0706ff4be3e147170ebe.svg",
-    "index.html": "/portfolio/index.html",
-    "static/media/react.svg": "/portfolio/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg"
+    "main.css": "/static/css/main.cf498ba1.css",
+    "main.js": "/static/js/main.3178cd5a.js",
+    "static/media/portrait_casual.jpg": "/static/media/portrait_casual.f9ff9fcd7fd50a4d1b22.jpg",
+    "static/media/portrait.jpg": "/static/media/portrait.eed58befb79efee64233.jpg",
+    "static/media/Benjamin Jacquet - CV - FR.pdf": "/static/media/Benjamin Jacquet - CV - FR.29d531c9e7d4aa899f33.pdf",
+    "static/media/Benjamin Jacquet - CV - EN.pdf": "/static/media/Benjamin Jacquet - CV - EN.3e2a94d3f31d5c021af9.pdf",
+    "static/media/background_valley.svg": "/static/media/background_valley.0706ff4be3e147170ebe.svg",
+    "index.html": "/index.html",
+    "static/media/react.svg": "/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg"
   },
   "entrypoints": [
-    "static/css/main.7629ed9b.css",
-    "static/js/main.4621c7d2.js"
+    "static/css/main.cf498ba1.css",
+    "static/js/main.3178cd5a.js"
   ]
 }
