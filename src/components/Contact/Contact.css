@@ -10,6 +10,10 @@
   gap: 5rem;
 }
 
+.contact__option > a > h5 {
+  display: inline;
+}
+
 /* ===== MEDIA QUERIES ===== */
 
 /* MEDIUM */

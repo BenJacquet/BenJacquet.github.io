@@ -2,6 +2,7 @@ header {
   padding-top: 8rem;
   background-image: url('../../assets/imgs/background_valley.svg');
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .header__container {
