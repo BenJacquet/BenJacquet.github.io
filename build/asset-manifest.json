@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.64b7f3ce.css",
+    "main.css": "/static/css/main.bbfddb8d.css",
     "main.js": "/static/js/main.ca90ede2.js",
     "static/media/portrait_casual.jpg": "/static/media/portrait_casual.f9ff9fcd7fd50a4d1b22.jpg",
     "static/media/portrait.jpg": "/static/media/portrait.eed58befb79efee64233.jpg",
@@ -11,7 +11,7 @@
     "static/media/react.svg": "/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg"
   },
   "entrypoints": [
-    "static/css/main.64b7f3ce.css",
+    "static/css/main.bbfddb8d.css",
     "static/js/main.ca90ede2.js"
   ]
 }
