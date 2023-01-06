@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Portrait from '../../assets/imgs/portrait.jpg'
+import Portrait from '../../assets/imgs/jabenjam.jpg'
 import SocialsBar from '../SocialsBar'
 import ReactIcon from '../../assets/imgs/react.svg'
 
