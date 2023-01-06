@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "name": "Transcendence",
+      "description": "lorem",
+      "technologies": ["ipsum"],
+      "links":
+      {
+        "demo": "demo.com",
+        "code": "code.com"
+      },
+      "images": [""]
+    },
+    {
+      "name": "IRC",
+      "description": "",
+      "technologies": [""],
+      "links":
+      {
+        "demo": "",
+        "code": ""
+      },
+      "images": [""]
+    },
+    {
+      "name": "Cub3D",
+      "description": "",
+      "technologies": [""],
+      "links":
+      {
+        "demo": "",
+        "code": ""
+      },
+      "images": [""]
+    },
+    {
+      "name": "Containers",
+      "description": "",
+      "technologies": [""],
+      "links":
+      {
+        "demo": "",
+        "code": ""
+      },
+      "images": [""]
+    },
+    {
+      "name": "Inception",
+      "description": "",
+      "technologies": [""],
+      "links":
+      {
+        "demo": "",
+        "code": ""
+      },
+      "images": [""]
+    }
+  ]
+}
